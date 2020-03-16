@@ -1,0 +1,19 @@
+
+spring:
+  profiles:
+    active:
+  application:
+    name: gofun-ms-carservice-record-service-local-hegang
+  redis:
+      host: redis.shouqiev.net
+      password: 3QpT%LA5
+      port: 6379
+      pool.max-active: 200
+      pool.max-idle: 20
+      pool.min-idle: 5
+      pool.max-wait: -1
+      timeout: 100000
+
+transmitter:
+  thread-pool-size: 6
+  max-event-deep: 25
